@@ -1,0 +1,13 @@
+{
+  "name": "producer",
+  "version": "1.0.0",
+  "main": "producer_dlq.js",
+  "scripts": {
+    "start": "node producer_dlq.js",
+    "dev": "node --watch --watch-path=. producer_dlq.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.9",
+    "express": "^4.22.1"
+  }
+}
